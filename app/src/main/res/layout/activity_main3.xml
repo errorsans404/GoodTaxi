@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_1"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="-21dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/vector__1_"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="209dp" />
+
+    <FrameLayout
+       android:layout_width="match_parent"
+       android:background="@drawable/rectangle_7"
+       android:layout_height="61dp">
+
+       <ImageView
+           android:id="@+id/i9"
+           android:layout_width="300dp"
+           android:layout_height="50dp" />
+       <ImageView
+           android:id="@+id/i"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:background="@drawable/ellipse_4"
+           android:layout_marginTop="5dp"
+           android:layout_marginStart="6dp"/>
+       <ImageButton
+           android:id="@+id/iw"
+           android:layout_width="12dp"
+           android:layout_height="50dp"
+           android:background="@drawable/group_2"
+           android:layout_marginStart="365dp"
+           android:layout_marginTop="6dp"/>
+
+
+       <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/ivanov_ivan"
+          android:layout_marginStart="76dp"
+           android:layout_marginTop="12dp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/novosibirsk"
+           android:layout_marginStart="76dp"
+           android:layout_marginTop="32dp"/>
+
+   </FrameLayout>
+
+
+</RelativeLayout>
